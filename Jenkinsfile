@@ -1,4 +1,5 @@
-groovyCopy codepipeline {
+groovy
+codepipeline {
     agent any
 
     stages {
