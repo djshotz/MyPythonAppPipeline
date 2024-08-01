@@ -1,5 +1,4 @@
-groovy
-codepipeline {
+pipeline {
     agent any
 
     stages {
