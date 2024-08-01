@@ -12,12 +12,10 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    // Define image name and tag
-                    def imageName = 'my-python-app'
-                    def imageTag = 'latest'
+
                     
                     // Build the Docker image
-                    sh "docker build -t ${imageName}:${imageTag} ."
+                    sh "docker build -t my-python-app:latest ."
                 }
             }
         }
